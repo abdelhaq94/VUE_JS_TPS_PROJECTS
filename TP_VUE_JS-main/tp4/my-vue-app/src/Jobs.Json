@@ -1,0 +1,38 @@
+{
+  "jobs": [
+    {
+      "id": "3",
+      "title": "UI/UX Designer",
+      "type": "Contract",
+      "description": "We are looking for a creative UI/UX Designer to turn our software into easy-to-use products for our clients. Responsibilities include gathering user requirements, designing graphic elements, and building navigation components.",
+      "location": "Brooklyn, NY",
+      "salary": "$60/hr",
+      "company": {
+        "name": "Creative Agency",
+        "description": "We make brands look good."
+      },
+      "postedDate": "2023-10-05"
+    },
+    {
+      "id": "4",
+      "title": "UX Designer",
+      "type": "Contract",
+      "description": "We are looking for a creative UI/UX Designer to turn our software into easy-to-use products for our clients. Responsibilities include gathering user requirements, designing graphic elements, and building navigation components.",
+      "location": "Brooklyn, NY",
+      "salary": "$65/hr",
+      "company": {
+        "name": " Agency",
+        "description": "We make brands look good."
+      },
+      "postedDate": "2023-10-05"
+    },
+    {
+      "id": "d561",
+      "title": "jjkkj",
+      "type": "Part-Time",
+      "description": "jkjkkkkkkkkkkkkkk",
+      "location": "kkjk",
+      "salary": "$110k - $130k"
+    }
+  ]
+}

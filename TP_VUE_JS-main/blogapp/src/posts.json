@@ -1,0 +1,145 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "The Future of Digital Design Systems",
+      "slug": "future-digital-design-systems",
+      "excerpt": "Discover how atomic design principles are reshaping the way teams build products. Learn to create consistent, scalable interfaces that users love.",
+      "content": "<h2>Why Atomic Design Matters</h2><p>When we break down interfaces into their smallest components, we gain flexibility. Atomic design is not a linear process, but a mental model to help us think of our user interfaces as a cohesive whole and a collection of parts at the same time.</p><h3>The Atoms</h3><p>Atoms are the basic building blocks of matter. Applied to web interfaces, atoms are our HTML tags, such as a form label, an input or a button.</p><blockquote>Design systems are about people, not just pixels.</blockquote><p>By focusing on the atomic level, we ensure consistency across the entire application.</p>",
+      "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80",
+      "category": "Design",
+      "date": "Mar 16, 2024",
+      "readTime": "5 min read",
+      "tags": [
+        "Design System",
+        "UI/UX",
+        "Atomic"
+      ],
+      "author": {
+        "name": "Sarah Wilson",
+        "role": "Head of Design",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Mastering Tailwind CSS Grid",
+      "slug": "mastering-tailwind-css-grid",
+      "excerpt": "Stop fighting with layout. We break down the most confusing parts of CSS Grid and how to use them effectively in your next project.",
+      "content": "<h2>Grid vs Flexbox</h2><p>The most common question I get is: <em>When should I use Grid and when should I use Flexbox?</em></p><p>The general rule of thumb is: <strong>CSS Grid</strong> is for layout (2D), and <strong>Flexbox</strong> is for alignment (1D).</p><h3>Setting up the Grid</h3><pre><code>&lt;div class=\"grid grid-cols-3 gap-4\"&gt;\n  &lt;div&gt;1&lt;/div&gt;\n  &lt;div&gt;2&lt;/div&gt;\n  &lt;div&gt;3&lt;/div&gt;\n&lt;/div&gt;</code></pre><p>This simple class creates a three-column layout that would have taken 20 lines of CSS just a few years ago.</p>",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80",
+      "category": "Engineering",
+      "date": "Mar 14, 2024",
+      "readTime": "8 min read",
+      "tags": [
+        "CSS",
+        "Tailwind",
+        "Frontend"
+      ],
+      "author": {
+        "name": "David Chen",
+        "role": "Frontend Lead",
+        "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+      }
+    },
+    {
+      "id": "3",
+      "title": "Building Accessible Forms",
+      "slug": "building-accessible-forms",
+      "excerpt": "Accessibility is not optional. Here is a checklist of Aria labels, focus states, and semantic HTML tags you should never forget.",
+      "content": "<h2>The Importance of Semantic HTML</h2><p>Using the correct HTML tag is 80% of the work. Screen readers rely on tags like <code>&lt;button&gt;</code>, <code>&lt;nav&gt;</code>, and <code>&lt;main&gt;</code> to understand the structure of your page.</p><h3>Focus States</h3><p>Never remove the default outline on focus unless you replace it with something better. Users navigating via keyboard rely on this visual cue to know where they are on the page.</p>",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80",
+      "category": "Accessibility",
+      "date": "Mar 10, 2024",
+      "readTime": "6 min read",
+      "tags": [
+        "A11y",
+        "HTML",
+        "Forms"
+      ],
+      "author": {
+        "name": "Emily Davis",
+        "role": "QA Engineer",
+        "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+      }
+    },
+    {
+      "id": "4",
+      "title": "Refactoring Legacy Codebases",
+      "slug": "refactoring-legacy-codebases",
+      "excerpt": "Strategies for modernizing old applications without rewriting everything from scratch. Learn the strangler fig pattern.",
+      "content": "<h2>Don't Rewrite Everything</h2><p>The temptation to 'burn it down' and start over is strong, but often leads to failure. Instead, try incremental refactoring.</p><h3>The Strangler Fig Pattern</h3><p>This pattern involves creating a new system around the edges of the old system, slowly intercepting calls and replacing functionality piece by piece until the old system can be safely removed.</p>",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80",
+      "category": "DevOps",
+      "date": "Feb 28, 2024",
+      "readTime": "12 min read",
+      "tags": [
+        "Architecture",
+        "Legacy",
+        "Strategy"
+      ],
+      "author": {
+        "name": "Michael Foster",
+        "role": "CTO",
+        "avatar": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+      }
+    },
+    {
+      "id": "5",
+      "title": "dcdcd",
+      "slug": "dcdcdc",
+      "excerpt": "",
+      "content": "cdcdcdc",
+      "image": "",
+      "category": "ddcdcdc",
+      "date": "12/1/2025",
+      "readTime": "5 min read",
+      "tags": [
+        "ccsxsc"
+      ],
+      "author": {
+        "name": "cddcvd",
+        "role": "vvdvdv",
+        "avatar": ""
+      }
+    },
+    {
+      "id": "5",
+      "title": "dcdcd",
+      "slug": "dcdcdc",
+      "excerpt": "",
+      "content": "cdcdcdcfeef",
+      "image": "",
+      "category": "ddcdcdc",
+      "date": "12/1/2025",
+      "readTime": "5 min read",
+      "tags": [
+        "ccsxsc"
+      ],
+      "author": {
+        "name": "cddcvd",
+        "role": "vvdvdv",
+        "avatar": ""
+      }
+    },
+    {
+      "id": "6",
+      "title": "efsgthmjhk",
+      "slug": "dsfgthj",
+      "excerpt": "",
+      "content": "sdfghj",
+      "image": "",
+      "category": "sdfghjk",
+      "date": "12/24/2025",
+      "readTime": "5 min read",
+      "tags": [
+        "gfgf"
+      ],
+      "author": {
+        "name": "fgrg",
+        "role": "fgfgfgfg",
+        "avatar": ""
+      }
+    }
+  ]
+}

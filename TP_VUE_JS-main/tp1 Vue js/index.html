@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TP Event</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+  <div id="app">
+    <!-- Ex 1 -->
+    <h2>Exercice 1</h2>
+    <button @click="changerTitre">{{ titre }}</button>
+
+    <!-- Ex 2 -->
+    <h2>Exercice 2</h2>
+    <div>
+      <button @click="decrementer">--</button>
+      <span style="margin: 0 10px;">{{ compteur }}</span>
+      <button @click="incrementer">++</button>
+    </div>
+  </div>
+
+  <script>
+    const { createApp } = Vue;
+
+    createApp({
+      data() {
+        return {
+        // etat d ex 1
+          titre: "Cliquez moi!",
+
+        // etat d ex 2
+          compteur: 0
+        };
+      },
+      methods: {
+        // methode d ex 1
+        changerTitre() {
+          this.titre = "Cliqué!";
+        },
+        // methode d ex 2
+        incrementer() {
+          this.compteur++;
+        },
+        decrementer() {
+          this.compteur--;
+        }
+      }
+    }).mount("#app");
+  </script>
+</body>
+</html>

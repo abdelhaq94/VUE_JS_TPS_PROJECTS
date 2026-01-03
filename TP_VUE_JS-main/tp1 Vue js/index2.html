@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exercice 4</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+  <div id="app4">
+    <h2>Exercice 4</h2>
+
+    <div>
+      <label><input type="radio" value="red" v-model="couleur"> Rouge</label>
+      <label><input type="radio" value="blue" v-model="couleur"> Bleu</label>
+      <label><input type="radio" value="green" v-model="couleur"> Vert</label>
+    </div>
+
+    <div>
+      <label><input type="checkbox" v-model="afficher"> Afficher le texte</label>
+    </div>
+
+    <p v-if="afficher" :style="{ color: couleur }">
+        un text pour tester la couleur et l affichage
+    </p>
+  </div>
+
+  <script>
+    const { createApp } = Vue;
+
+    createApp({
+      data() {
+        return {
+          couleur: "black",
+          afficher: true
+        };
+      }
+    }).mount("#app4");
+  </script>
+</body>
+</html>

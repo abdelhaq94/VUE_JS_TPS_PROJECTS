@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "nom": "Batterie 12V",
+    "prix": 120,
+    "categorie": "Électricité",
+    "availability": "Available"
+  },
+  {
+    "id": 2,
+    "nom": "Filtre à huile",
+    "prix": 15,
+    "categorie": "Filtration",
+    "availability": "Available"
+  },
+  {
+    "id": 3,
+    "nom": "Bougies d'allumage (x4)",
+    "prix": 35,
+    "categorie": "Moteur",
+    "availability": "Not available"
+  },
+  {
+    "id": 4,
+    "nom": "Disques de frein (x2)",
+    "prix": 80,
+    "categorie": "Freinage",
+    "availability": "Available"
+  },
+  {
+    "id": 5,
+    "nom": "Courroie de distribution",
+    "prix": 90,
+    "categorie": "Moteur",
+    "availability": "Not available"
+  },
+  {
+    "id": 6,
+    "nom": "Pompe à eau",
+    "prix": 70,
+    "categorie": "Refroidissement",
+    "availability": "Available"
+  },
+  {
+    "id": 7,
+    "nom": "Amortisseurs arrière (x2)",
+    "prix": 150,
+    "categorie": "Suspension",
+    "availability": "Not available"
+  },
+  {
+    "id": 8,
+    "nom": "Filtre à air",
+    "prix": 20,
+    "categorie": "Filtration",
+    "availability": "Available"
+  },
+  {
+    "id": 9,
+    "nom": "Capteur ABS",
+    "prix": 50,
+    "categorie": "Sécurité",
+    "availability": "Available"
+  },
+  {
+    "id": 10,
+    "nom": "Radiateur de refroidissement",
+    "prix": 130,
+    "categorie": "Refroidissement",
+    "availability": "Not available"
+  },
+  {
+    "id": 11,
+    "nom": "Alternateur",
+    "prix": 200,
+    "categorie": "Électricité",
+    "availability": "Available"
+  },
+  {
+    "id": 12,
+    "nom": "Démarreur",
+    "prix": 180,
+    "categorie": "Électricité",
+    "availability": "Not available"
+  },
+  {
+    "id": 13,
+    "nom": "Kit d’embrayage",
+    "prix": 220,
+    "categorie": "Transmission",
+    "availability": "Available"
+  },
+  {
+    "id": 14,
+    "nom": "Injecteur de carburant",
+    "prix": 110,
+    "categorie": "Moteur",
+    "availability": "Not available"
+  },
+  {
+    "id": 15,
+    "nom": "Pompe à carburant",
+    "prix": 90,
+    "categorie": "Carburant",
+    "availability": "Available"
+  },
+  {
+    "id": 16,
+    "nom": "Capteur de pression des pneus (TPMS)",
+    "prix": 45,
+    "categorie": "Sécurité",
+    "availability": "Not available"
+  },
+  {
+    "id": 17,
+    "nom": "Rétroviseur extérieur",
+    "prix": 60,
+    "categorie": "Carrosserie",
+    "availability": "Available"
+  },
+  {
+    "id": 18,
+    "nom": "Échappement complet",
+    "prix": 250,
+    "categorie": "Échappement",
+    "availability": "Available"
+  },
+  {
+    "id": 19,
+    "nom": "Vanne EGR",
+    "prix": 140,
+    "categorie": "Moteur",
+    "availability": "Not available"
+  },
+  {
+    "id": 20,
+    "nom": "Turbo",
+    "prix": 400,
+    "categorie": "Moteur",
+    "availability": "Available"
+  },
+  {
+    "id": 21,
+    "nom": "Joint de culasse",
+    "prix": 75,
+    "categorie": "Moteur",
+    "availability": "Not available"
+  },
+  {
+    "id": 22,
+    "nom": "Boîtier de direction",
+    "prix": 300,
+    "categorie": "Direction",
+    "availability": "Available"
+  },
+  {
+    "id": 23,
+    "nom": "Silent bloc de suspension",
+    "prix": 35,
+    "categorie": "Suspension",
+    "availability": "Not available"
+  },
+  {
+    "id": 24,
+    "nom": "Cardan de transmission",
+    "prix": 160,
+    "categorie": "Transmission",
+    "availability": "Available"
+  },
+  {
+    "id": 25,
+    "nom": "Capteur de position vilebrequin",
+    "prix": 50,
+    "categorie": "Moteur",
+    "availability": "Not available"
+  }
+]

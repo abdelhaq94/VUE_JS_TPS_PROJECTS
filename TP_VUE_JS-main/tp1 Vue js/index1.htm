@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exercice 3</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+  <div id="app3">
+    <h2>Exercice 3</h2>
+    <!-- verification ppour cahque changement d input-->
+    <input 
+      type="text" 
+      v-model="texte" 
+      @input="verifierEspace" 
+      placeholder="Saisissez un mot sans espace"
+    >
+    <p v-if="afficherMessage" style="color: red;">
+      ⚠️ Ne mettez pas d'espace dans le texte !
+    </p>
+  </div>
+
+  <script>
+    const { createApp } = Vue;
+
+    createApp({
+      data() {
+        return {
+            // etat d ex 3
+          texte: "",
+          afficherMessage: false
+        };
+      },
+      methods: {
+        // methode d ex 3
+        verifierEspace() {
+          if (this.texte.includes(" ")) {
+            this.afficherMessage = true;
+          } else {
+            this.afficherMessage = false;
+          }
+        }
+      }
+    }).mount("#app3");
+  </script>
+</body>
+</html>
